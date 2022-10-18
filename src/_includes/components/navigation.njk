@@ -1,0 +1,9 @@
+<ul>
+    {%- for item in collections.all | eleventyNavigation -%}
+    <li class="">
+            <a class="" href="{{ item.url }}">
+                {{ item.title }}
+            </a>
+    </li>
+    {%- endfor -%}
+</ul>

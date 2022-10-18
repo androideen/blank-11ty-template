@@ -1,0 +1,32 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+	text-rendering: optimizeLegibility;
+}
+
+
+article, aside, audio,
+footer, header, nav, section, video {
+	display: block;
+}
+
+
+h1 {
+	font-size: 1.4rem;
+}
+
+
+a.skip-main {
+	position: absolute;
+	left: -9999px;
+	z-index: 999;
+	padding: 1em;
+	background-color: black;
+	color: white;
+	opacity: 0;
+}
